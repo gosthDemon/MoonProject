@@ -1,0 +1,90 @@
+:root {
+    --black: #303440;
+    --hover-button: #3393c0;
+    --smoke: #dddddd;
+
+    --background: #D4F3EF;
+    --primary: rgb(99, 183, 175);
+    --secondary: #ABF0E9;
+    --details: #EE8572;
+    --alert: #D54E50;
+}
+
+.container-image {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.form-image {
+    height: 500px;
+}
+
+.alert {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    color: red !important;
+}
+
+.form-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-buttons button {
+    margin: 10px;
+}
+
+.button {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn-submit {
+    background: var(--primary);
+    color: var(--smoke);
+    font-size: 20px;
+    font-weight: bold;
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+}
+
+.btn-submit:hover {
+    color: var(--smoke);
+    padding: 0px 15px 0px 15px;
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+}
+
+.btn-cancel {
+    background: var(--details);
+    color: var(--smoke);
+    font-size: 20px;
+    font-weight: bold;
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+}
+
+.btn-cancel:hover {
+    color: var(--smoke);
+    padding: 0px 15px 0px 15px;
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+}
+@media screen and (max-width: 760px) {
+    .form-image {
+        height: 300px;
+    }
+}
+.swal-text {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.swal-button {
+    background-color: var(--primary);
+}

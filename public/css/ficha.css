@@ -1,0 +1,151 @@
+.card-body {
+    display: flex;
+    justify-content: center;
+}
+
+.card-body a {
+    text-decoration: none;
+
+}
+
+.card-body a .container-centro {
+    width: 250px;
+    height: 250px;
+    margin: auto auto;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    box-shadow: 0 0 4px 1px black;
+    transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.card-body a:hover .container-centro {
+    width: 255px;
+    height: 255px;
+    transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    box-shadow: 0 0 10px 1px black;
+}
+
+.card-body a .container-centro .header {
+    background: var(--primary);
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+
+.card-body a .container-centro img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.considerations {
+    font-size: 30px;
+    color: var(--details);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.text-considerations {
+    text-align: justify;
+}
+
+#consejo {
+    width: 100%;
+}
+
+.tell-me-more {
+    border: none;
+    color: white;
+    background: var(--primary);
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+    font-size: 20px;
+    width: 250px;
+    margin: 25px;
+}
+
+.header-appointment {
+    margin-bottom: 25px;
+    font-size: 30px;
+    color: var(--primary);
+    font-weight: bold;
+    text-align: center;
+}
+
+#messageNroAppointment {
+    color: #63B7AF;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.container-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.reserve {
+    padding: 25px;
+    font-size: 40px;
+    color: var(--smoke);
+    background: var(--primary);
+    border: none;
+    border-radius: 5px;
+}
+
+.text-waitingApprove {
+    display: flex;
+    justify-content: center;
+}
+
+.waitingApproveTime-Out {
+    max-width: 100%;
+}
+
+.title {
+    color: var(--primary);
+}
+
+.title-reserved {
+    color: var(--details);
+}
+
+.message-waiting-approve {
+    text-align: justify;
+}
+
+@media screen and (max-width:769px) {
+    .card-body .container-centro {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .card-body a .container-centro {
+        width: 200px;
+        height: 200px;
+        margin: auto auto;
+        margin-top: 50px;
+        margin-bottom: 60px;
+        box-shadow: 0 0 4px 1px black;
+        transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    }
+
+    .card-body a:hover .container-centro {
+        width: 205px;
+        height: 205px;
+        transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+        box-shadow: 0 0 10px 1px black;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .title-reserved {
+        text-align: center;
+    }
+
+}
